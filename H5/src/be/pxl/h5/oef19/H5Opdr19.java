@@ -1,6 +1,5 @@
 package be.pxl.h5.oef19;
 
-
 import java.util.Scanner;
 
 public class H5Opdr19 {
@@ -21,5 +20,4 @@ public class H5Opdr19 {
 
 		keyboard.close();
 	}
-
 }

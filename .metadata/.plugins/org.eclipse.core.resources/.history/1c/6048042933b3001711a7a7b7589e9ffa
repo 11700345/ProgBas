@@ -1,0 +1,34 @@
+package be.pxl.h5.oef20;
+
+import java.util.Scanner;
+
+public class H5Oef20 {
+	public static void main(String[] args) {
+		Scanner keyboard = new Scanner(System.in);
+		
+		int getal, faculteit;
+		
+		System.out.println("Geheel getal: ");
+		getal = keyboard.nextInt();
+		
+		while(getal != 0) {
+			
+			faculteit = Faculteit(getal);
+			System.out.println("De faculteit van " + getal + " is " + faculteit);
+			System.out.println("getal: ");
+			getal = keyboard.nextInt();
+		}
+		
+		keyboard.close();
+	}
+	
+	public static int Faculteit(int x) {
+		int faculteit = 1;
+					
+		for (int counter = 0; counter < x; counter++) {
+			faculteit *= (x - counter);
+		}	
+
+		return faculteit;
+	}
+}

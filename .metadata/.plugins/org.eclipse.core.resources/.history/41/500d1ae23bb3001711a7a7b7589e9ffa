@@ -1,0 +1,13 @@
+package be.oef.h5.exoef22;
+
+public class H5Exoef22 {
+
+	public static void main(String[] args) {
+		
+
+	}
+	
+	public static void printGrid(char hoeksysmbool, char horizontaalSymbool, char verticaalSymbaal) {
+		
+	}
+}
