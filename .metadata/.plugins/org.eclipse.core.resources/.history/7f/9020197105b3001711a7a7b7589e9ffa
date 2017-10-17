@@ -9,8 +9,6 @@ public class H5Opdr24 {
 		
 		System.out.println("aantal films");
 		int aantalFilms = keyboard.nextInt();
-		double totalePrijs = 0;
-		double gemiddelde;
 
 		for (int counter = 0; counter < aantalFilms; counter++) {
 			System.out.println("genrenummer");
@@ -25,15 +23,11 @@ public class H5Opdr24 {
 			double prijs = prijsFilm(rating, leeftijd, speeltijd, genreNummer);
 			int huurtijd = huurTijd(rating, leeftijd, genreNummer);
 			
-			totalePrijs = totalePrijs + prijs;
-			
 			System.out.println("film" + counter + "\t€" + prijs + "\t" + huurtijd + " dagen");
+			
+			
 
 		}
-		gemiddelde = totalePrijs / aantalFilms;
-		
-		System.out.println("gemiddelde = €" + gemiddelde);
-		
 		keyboard.close();
 	}
 
@@ -60,7 +54,6 @@ public class H5Opdr24 {
 			}
 		}
 
-		
 		return prijs;
 	}
 

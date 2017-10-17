@@ -1,0 +1,10 @@
+package be.pxl.h5.oef25;
+
+public class H5Oef25 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}
