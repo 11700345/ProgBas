@@ -24,7 +24,7 @@ public class H5Oef23 {
 			System.out.println();
 			
 			for(int j = 0; j < remainingLength; j++) {
-				System.out.print('xx');
+				System.out.print('@');
 			}
 			
 			remainingLength--;

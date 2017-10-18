@@ -12,8 +12,7 @@ public class H5Exoef22 {
 		char verticaalSymbool = '|';
 
 		printGrid(hoeksymbool, horizontaalSymbool, verticaalSymbool);
-		
-		keyboard.close();
+
 	}
 
 	public static void printGrid(char hoeksymbool, char horizontaalSymbool, char verticaalSymbaal) {

@@ -67,7 +67,7 @@ public class H5Opdr24 {
 	public static int huurTijd (int rating, int leeftijd, int genreNummer) {
 		int huurtijd;
 		
-		if (rating == 5 && (leeftijd <=2 || (genreNummer / 10000) == 5)) {
+		if (rating == 5 || leeftijd <=2 || (genreNummer / 10000) == 5) {
 			huurtijd = 1;
 		} else {
 			huurtijd = 2;
