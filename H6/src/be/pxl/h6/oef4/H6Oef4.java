@@ -7,8 +7,8 @@ public class H6Oef4 {
 	public static void main(String[] args) {
 		Scanner i = new Scanner(System.in);
 		
-		String tekst1 = i.nextLine() + "***";
-		String tekst2 = "+++" + i.nextLine();
+		String tekst1 = i.nextLine() + "****";
+		String tekst2 = "++++" + i.nextLine();
 		
 		tekst1 = tekst1.substring(0, 4);
 		tekst2 = tekst2.substring((tekst2.length() - 4), tekst2.length());
@@ -25,7 +25,7 @@ public class H6Oef4 {
 		
 		System.out.println(tekstCombinatie);
 		 
-		
+		i.close();
 	}
 
 }

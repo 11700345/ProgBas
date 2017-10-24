@@ -9,7 +9,7 @@ public class H6Oef2 {
 		
 		String str = keyboard.nextLine();
 		
-		int positieT =  str.toUpperCase().indexOf(str, 'T');
+		int positieT =  str.toUpperCase().indexOf('T');
 		
 		if ((str.length() % 2) == 0 ) {
 			str = str.toLowerCase();
