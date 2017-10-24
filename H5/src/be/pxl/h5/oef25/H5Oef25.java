@@ -101,6 +101,8 @@ public class H5Oef25 {
 			System.out.println("Foutief geslacht ingegeven!");
 			System.out.println("Geef je geslacht in, vrouw (0), man (1), STOP (2):");
 			geslacht = keyboard2.nextInt();
+			
+		keyboard2.close();
 		}
 		return geslacht;
 		
