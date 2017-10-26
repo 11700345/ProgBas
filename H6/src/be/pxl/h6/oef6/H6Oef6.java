@@ -1,9 +1,11 @@
 package be.pxl.h6.oef6;
 
+import java.util.Scanner;
+
 public class H6Oef6 {
 
 	public static void main(String[] args) {
-Scanner keyboard = new Scanner(System.in);
+		Scanner keyboard = new Scanner(System.in);
 		
 		System.out.println("Geef uw volledige naam in:");
 		String naam = keyboard.nextLine();
